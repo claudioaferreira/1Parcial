@@ -3,7 +3,7 @@ name: Publicar Pagina a Surge.sh
 on:
   push:
     branches:
-      - main  # Esta es la rama que debe hacer el push
+      - master  # Esta es la rama que debe hacer el push
 
 jobs:
   deploy:
