@@ -13,6 +13,11 @@ jobs:
       - name: Clonar el repositorio
         uses: actions/checkout@v3
 
+      - name: Configurar Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '20'
+
       - name: Instalar Surge
         run: npm install --global surge
 
